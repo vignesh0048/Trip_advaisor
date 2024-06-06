@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:  "Cambo", serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    position: sticky;
+    top: 0;
+}
+/* hover */
+.navbar__tittle:hover{
+    border-bottom: 1px black solid;
+    cursor: pointer;
+}
+.navbar__items h3:hover{
+    border-bottom: 1px black solid;
+    cursor: pointer;
+}
+.navbar__tittle img{
+    width: 40px;
+height: 40px;
+padding-right: 10px;
+
+}
+
+.navbar__items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar__icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+/* icons */
+.icons{
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+}
+
+/* headings */
+.headings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+/* navbar2 */
+.navbar2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 30px;
+}
+.navbar2 p:hover{
+    border-bottom: 1px black solid;
+    cursor: pointer;
+}
+/* search */
+.search{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+ 
+}
+.search input{
+    border: none;
+    font-size: 16px;
+    width: 100%;
+
+}
+.search input:focus{
+    outline: none;
+}
+
+/* display image */
+.displayimage img{
+    width: 100%;
+    background-color: #D8D4FB;
+    border-radius: 20px;
+    margin-top: 20px;
+    
+}
+.displayimage{
+    position: relative;
+}
+.displayimage__details{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 250px;
+    margin-top: 20px;
+
+}
+.displayimage__details h3{
+    margin-top: 10px;
+}
+
+  
+.recommandations__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.recommandations__container p:hover{
+    cursor: pointer;
+    background-color: #c574cf;
+}
+.recommandations__container h3:hover{
+    cursor: pointer;
+    background-color: #c574cf;
+}
+.trip__1{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px; 
+   
+}
+.trip__1 img{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+.recommandations__tittle{
+    margin: 20px;
+} 
+
+.trip{
+    width: 80px;
+}
+
+.tour__tittle{
+    margin: 20px;
+}
+.tour__tittle h1:hover{
+    background-color: #c574cf;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.tour__card1 p:hover{
+    background-color: #c574cf;
+    cursor: pointer;
+}
+
+.tour__card h3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+}
+.like__tittle{
+    margin: 20px;
+}
+.like__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    
+
+} 
+/* like hover */
+.conatainer__card h3:hover{
+    background-color: #c574cf;
+    cursor: pointer;
+    
+}
+
+.more{
+    margin: 20px;
+}
+.explore{
+    margin: 20px;
+}
+.explore__container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 1px #F2ECF9 solid;
+    background-color: #F2ECF9;
+    width: 80%;
+    margin: 20px;
+}
+/* hover */
+.more__card p:hover{
+    background-color: #c574cf;
+    width: fit-content;
+}
+.more h1:hover{
+    cursor: pointer;
+    width: fit-content;
+    background-color: #c574cf;
+}
+.explore__container{
+    position: relative;
+}
+.explore__card h4{
+    position: absolute;
+    width: 200px;
+    top: 25%;
+    right: 20%;
+
+}
+.explore__card p{
+    position: absolute;
+    width: 200px;
+    top: 30%;
+    right: 20%;
+
+}
+.explore__container img{
+    border-radius: 30px;
+    background-color: #F2ECF9;
+    padding: 20px;
+}
+.explore h1:hover{
+    cursor: pointer;
+    width: fit-content;
+    background-color: #c574cf;
+
+}
+.footer{
+    padding: 30px;
+    background-color: #FAF1ED;
+    color:black;
+    display: flex;
+
+}
+
+.footer p{
+    margin: 20px;
+
+}
+.footer p:hover{
+    background-color:#884F90;
+    color: white;
+    cursor: pointer;
+}
+.footer2{
+    display: flex;
+    background-color:#FAF1ED;
+    border: 1px #FAF1ED solid;
+}
+.footer2__s1{
+    width: 50%;
+    flex-wrap: wrap;
+    color: black;
+    padding: 30px;
+}
+.footer2__s1 p{
+    margin: 10px;
+}
+.footer2__s2{
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+    gap: 20px;
+    
+} 
+.footer2:hover{
+    cursor: pointer;
+}
+
+.box1 select{ 
+    left: 60%;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:#FAF1ED ;
+}
+.box1:hover{
+
+    cursor: pointer;
+}
+.footer2 p:hover{
+    background-color: #c574cf;
+    cursor: pointer;
+}
+.box2 select{ 
+    left: 60%;
+    border-radius: 20px;
+    background-color:#FAF1ED ;
+    width: 200px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px){
+    body{
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    .trip__1{
+        flex-basis: 40%;
+    }
+  .navbar__tittle img{
+    display: none;
+  }
+    .navbar__items{
+        display: none;
+    }
+    .displayimage img{
+        width: 100%;
+        height: 100%;
+    }
+    .displayimage__details {
+        width: 120px;
+        flex-wrap: wrap;
+    }
+    .more__card img{
+        width: 50%;
+        height: 50%;
+        flex-wrap: wrap;
+    }
+    .more__card p{
+       font-size: 14px;
+       width: 50%;
+       flex-wrap: wrap;
+    }
+    .footer2__s1{
+        font-size: 14px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .footer2__s2{
+        display: none;
+    }
+    }
+    .navbar__s4:hover{
+        cursor: pointer;
+        color: blueviolet;
+       
+    }
+    .explore__card img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .explore__card h4{
+        display: none;
+    }
+    .explore__card p{
+        display: none;
+    }
+
